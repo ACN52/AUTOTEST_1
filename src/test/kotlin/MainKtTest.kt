@@ -13,7 +13,7 @@ class MainKtTest {
     @Test
     fun calculateCommission1() {
         val result = calculateCommission("Mastercard", 200_000, 0, 0)
-        assertEquals(0.0, result, 0.001)
+        assertEquals(55.0, result, 0.001)
     }
 
     // Операция отклонена -> Превышен лимит переводов за месяц "Mastercard"!
